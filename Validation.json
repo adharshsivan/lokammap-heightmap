@@ -1,0 +1,26 @@
+{
+  "Desktop": {
+    "vertices": 97512,
+    "triangles": 191227,
+    "validIndices": true,
+    "singleValuedHeightfield": true,
+    "finiteUnitNormals": true
+  },
+  "Mobile": {
+    "vertices": 44170,
+    "triangles": 85853,
+    "validIndices": true,
+    "singleValuedHeightfield": true,
+    "finiteUnitNormals": true
+  },
+  "heightmap": {
+    "resolution": [
+      1025,
+      1025
+    ],
+    "range": [
+      0,
+      65527
+    ]
+  }
+}

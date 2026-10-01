@@ -1,0 +1,78 @@
+{
+  "resolution": [
+    1125,
+    1125
+  ],
+  "bitDepth": 16,
+  "heightDecode": "heightMeters = pixel / 65535 * heightRangeMeters + minHeightMeters",
+  "minHeightMeters": -24.0,
+  "maxHeightMeters": 180.09588623046875,
+  "heightRangeMeters": 204.09588623046875,
+  "seaLevelMeters": 3.4,
+  "boundsXZ": {
+    "min": [
+      -1068.973388671875,
+      -1123.77734375
+    ],
+    "max": [
+      1068.973388671875,
+      1123.77734375
+    ]
+  },
+  "sampleSpacingMeters": [
+    1.902087880199066,
+    1.9996038145017794
+  ],
+  "terrainFootprintKm2": 4.805152301044464,
+  "imageRows": "row 0 = minimum world Z; columns increase along +X",
+  "beachClassification": "broad open-coast sand shelves, low dunes and gently graded backwater banks",
+  "limitations": "Single-valued heightfield cannot preserve overhangs or caves. Shoreline correspondence is limited by grid resolution.",
+  "sculptVersion": "kerala-weathered-coast-3",
+  "lagoonIslandRefinement": "30 m contour fairing at (-259, -700), preserving island area and location",
+  "beachWidthMeters": [
+    14,
+    65
+  ],
+  "coastlineDisplacementLimitMeters": [
+    -18,
+    14
+  ],
+  "landformMethod": "bounded headland weathering, varied continuous coastal slopes, broad shallow drainage, protected mountain cores and settlement interiors; no road constraints",
+  "roadConstraintsUsed": false,
+  "landSilhouetteIoU": 0.9577553310886644,
+  "maximumHeightMeters": 151.78868097725828,
+  "Desktop": {
+    "grid": 977,
+    "terrainTriangles": 1311196,
+    "trees": 508,
+    "sizeMB": 36.933,
+    "filename": "Emerald_Haven_Heightmap_Desktop.glb"
+  },
+  "Mobile": {
+    "grid": 417,
+    "terrainTriangles": 239690,
+    "trees": 508,
+    "sizeMB": 6.874,
+    "filename": "Emerald_Haven_Heightmap_Mobile.glb"
+  },
+  "modifiedHeightSamples": 1079321,
+  "previewBeach": {
+    "target": [
+      190.2087880199067,
+      9.509839218576603,
+      83.98336020907482
+    ],
+    "position": [
+      79.13285920519604,
+      38,
+      38.57259014349095
+    ]
+  },
+  "coastlineTreatment": "selective sand, settlement meadows, narrow wetland banks, laterite, rock and cliff; texture-only coast classification",
+  "recognizableBeachShoreFraction": 0.22,
+  "surfaceVersion": "weathered-coast-variable-biomes-4",
+  "wetlandBankWidthMeters": [
+    5,
+    27
+  ]
+}
